@@ -1,0 +1,189 @@
+* {
+    margin : 0;
+    padding : 0;
+    border:border-box;
+}
+/* website navbar */
+.navbar-header {
+    padding: 16px 8px;
+    border-bottom: 1px solid rgb(45, 70, 104);
+    background-color: black(244, 240, 240);
+    background-size:cover;
+}
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin:auto;
+}
+.navbar-links
+{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-weight: 500;
+    
+    gap:30px;
+}
+.navbar-actions
+{
+    display: flex;
+    list-style: none;
+    align-items:center;
+    gap: 16px;
+    text-decoration: none;
+    height:auto;
+    
+    
+
+}
+.navbar-action-btn
+{
+    display: flex;
+    align-items: end;
+    gap: 4px;
+    text-decoration: none;
+}
+.nav-link{
+   text-decoration: none ;
+   font-size: 20px;
+   font-weight: 500;
+   color:rgb(132, 58, 58)
+}
+.nav-link:hover{
+    font-weight: 700;
+    color:darkmagenta;
+    text-decoration: underline;
+}
+.car-badge
+{
+    text-decoration: none;
+    position: relative;
+}
+.car-number{
+    position: absolute;
+    font-weight: 800;
+width: 25px;
+height: 25px;
+background: color: tomato;
+border-radius: 999px;
+top: -16px;
+right: 20px;
+display: grid;
+place-item: center;
+}
+.account-avtar {
+    width: 36px;
+    height:36px;
+    border radius: 999px;
+}
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding:24px 0;
+
+}
+/*categories styles */
+.catogories-container{
+    display:flex;
+    gap:16px;
+    flex-wrap:wrap;
+    margin-top:24px;
+}
+.catogories-card{
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    padding:16px;
+    border-radius:24px;
+
+}
+.category-card>p{
+    font-size:18px;
+    font-weight:700;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 8px;
+}
+.category-card>img{
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+
+}
+.category-card:hover {
+    background-color: rgba(0,0,0,0.1);
+    cursor:pointer;
+}
+/*product styles*/
+.product-container{
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    gap:16px;
+}
+.product-card>img{
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+
+}
+.product-card{
+    box-shadow: 2px 3px 3px rgba(4, 71, 11, 0.2);
+    border:1px solid rgba(0,0,0,0.1);
+    border-radius: 16px;
+    padding:16px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap:8px;
+
+
+}
+.product-card>h4{
+    font-size:24px;
+    font-weight:800;
+}
+
+.product-card>span {
+    font-size:18px;
+    font-weight: 800;
+
+}
+.product-card>button {
+    padding: 12px 15px;
+    border-radius:999px;
+    background-color: darkgoldenrod;
+    color:wheat;
+    font-size:16px;
+}
+.foot-panel1{
+    background-color:rgb(3, 14, 15);
+    color:white;
+    height:40px;
+    display:flex;
+    justify-content:center;
+    align-items:space-evenly;
+    
+}
+.foot-panel2{
+    background-color:black;
+    color: white;
+    height:80px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:left;
+
+    
+    
+
+}
+.foot-panel3{
+    background-color: black;
+    color: white;
+    height: 100px;
+    display:flex;
+    justify-content:space-between;
+    align-items:right;
+    
+
+}
